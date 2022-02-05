@@ -19,6 +19,11 @@ div {
     background-color: blue;
 }
 
+.red, .yellow, .blue {
+    height: 50px;
+    width: 50px;
+}
+
 .clear-both {
     clear: both;
 }
