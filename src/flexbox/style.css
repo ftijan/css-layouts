@@ -126,3 +126,33 @@ div {
     order: -1;
 }
 
+.flex-container-17 {
+    display: flex;    
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.flex-grow-4 {
+    flex-grow: 4;
+}
+
+.flex-shrink-0 {
+    flex-shrink: 0;
+}
+
+.flex-shrink-4 {
+    flex-shrink: 4;
+}
+
+.flex-basis-10-em {
+    flex-basis: 10em;
+}
+
+.flex-shorthand-flexibility {
+    /* flex-grow flex-shrink flex-basis */
+    flex: 0 0 auto;
+}
+
+
