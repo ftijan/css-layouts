@@ -104,3 +104,25 @@ div {
     display: inline-flex;
     flex-flow: row-reverse wrap-reverse;
 }
+
+.flex-container-16 {
+    display: flex;    
+}
+
+/* negative impact on accessibility which depends on
+* source order, not display order
+*/
+.flex-order-0 {
+    /* default order value */
+    order: 0;
+}
+
+.flex-order-1 {
+    order: 1;
+}
+
+.flex-order-negative-1 {
+    /* smaller than zero, will shift to first place*/
+    order: -1;
+}
+
