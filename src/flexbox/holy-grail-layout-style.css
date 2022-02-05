@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+}
+
+article {
+    flex: 2 2 12em;
+    /* push main content all the way left:  */
+    /* order: -1; */
+}
+
+nav,
+aside {
+    flex: 1;
+}
+
+@media screen and (max-width: 500px) {
+    main {
+        flex-direction: column;
+    }
+}
