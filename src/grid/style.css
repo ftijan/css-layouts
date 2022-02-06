@@ -206,3 +206,28 @@ div {
     grid-template-rows: repeat(2, 6em);
 }
 
+.grid-container-20 {
+    border: solid 4px #000;
+    height: 30em;
+    display: inline-grid;
+    grid: repeat(2, 10em) / repeat(4, 8.5em);
+    align-content: center;    
+}
+
+.grid-container-21 {
+    border: solid 4px #000;  
+    display: inline-grid;
+    grid: repeat(2, 10em) / repeat(4, 8.5em); 
+    justify-items: center;
+}
+
+.grid-container-22 {
+    border: solid 4px #000;  
+    display: inline-grid;
+    grid: repeat(2, 10em) / repeat(4, 8.5em); 
+    justify-items: center;
+}
+
+.grid-item-22-6 {
+    align-self: end;
+}
