@@ -1,0 +1,36 @@
+.item {
+    border: 1px solid black;
+}
+
+.media-item-title {
+    grid-area: title;
+}
+
+.media-item-thumb {
+    grid-area: thumbnail;
+}
+
+.media-item-content {
+    grid-area: content;
+}
+
+/*
+.media-container {
+    display: grid;
+    grid: auto auto / 8em 1fr;
+    grid-template-areas: 
+        "title title"
+        "thumbnail content";
+    gap: 1em;
+}
+*/
+
+.media-container {
+    display: grid;
+    grid: auto 1em auto / 8em 1.5em 1fr;
+    grid-template-areas: 
+        "title title title"
+        ". . ." /* empty horizontal spacing grid items (gutter) */
+        "thumbnail . content";
+    
+}
